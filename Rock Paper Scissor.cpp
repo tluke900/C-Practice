@@ -29,10 +29,10 @@ int main() {
 
     if (playerMoveInt == -1) {
         cout << "Exiting the game due to invalid input." << endl;
-        return 1; // Exit if invalid move
+        return 1; 
     }
     else if (playerMoveInt== computerMoveInt){
-        cout << "It's a tie!" << endl;
+        cout << "It's a tie!\n Score: playerWins=" << playerWins << ", ComputerWins=" << computerWins" << endl;
     }
     else if (playerMoveInt==2 && computerMoveInt==0){
         computerWins++;
